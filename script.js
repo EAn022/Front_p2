@@ -1,4 +1,7 @@
-const accordionButtons = document.querySelectorAll('.accordion-button');
+
+// Adaptação das cores do acordeon na landing page
+
+    const accordionButtons = document.querySelectorAll('.accordion-button');
     
     // Adiciona o evento de clique em cada botão
     accordionButtons.forEach(button => {
@@ -10,3 +13,38 @@ const accordionButtons = document.querySelectorAll('.accordion-button');
             this.classList.add('active');
         });
     });
+
+
+// Validação do login
+    // Referências aos elementos do formulário
+    const emailInput = document.getElementById("email");
+    const senhaInput = document.getElementById("senha");
+    const entrarButton = document.getElementById("entrar");
+
+    // Função para habilitar ou desabilitar o botão "Entrar"
+    function verificarCampos() {
+        if (emailInput.value && senhaInput.value) {
+            entrarButton.disabled = false;
+        } else {
+            entrarButton.disabled = true;
+        }
+    }
+
+    // Validação do formulário e verificação de e-mail e senha
+    entrarButton.addEventListener("click", function() {
+        const email = emailInput.value;
+        const senha = senhaInput.value;
+
+        // Condições de validação: e-mail e senha devem ser "usuario"
+        if (email === "usuario" && senha === "usuario") {
+            // alert("Login realizado com sucesso!");
+            // Aqui você pode redirecionar o usuário para outra página, por exemplo:
+            window.location.href = "home.html";
+        } else {
+            alert("E-mail ou senha inválidos!");
+        }
+    });
+
+    // Adicionar ouvintes de evento para verificar os campos
+    emailInput.addEventListener("input", verificarCampos);
+    senhaInput.addEventListener("input", verificarCampos);

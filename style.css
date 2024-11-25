@@ -1,6 +1,6 @@
 :root{
-    --primary-collor:rgb(255, 186, 106);
-    --secundary-collor:rgb(255, 230, 200);
+    --primary-collor:#FF725E;
+    --secundary-collor:#fca89d;
     --tertiary-collor: #263238;
 }
 
@@ -8,6 +8,9 @@
     font-family:"Poppins", sans-serif;
 }
 
+/* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ */
+
+/* landing page */
 .navbar{
     background-color: var(--primary-collor)  !important;
 }
@@ -52,4 +55,172 @@
 
 .accordion-button.active {
     background-color: var(--secundary-collor) !important;
+}
+
+/* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ */
+
+/* login page */
+
+
+.login-forms-geral{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    margin-top: 10%;
+    gap: 12px;
+}
+
+.login-forms-img img{
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover; 
+}
+
+.login-form{
+    width: 300px;
+    border-radius: 6px;
+    padding: 16px 12px 12px 12px;
+    background-color: var(--primary-collor);
+}
+
+.login-form h2{
+    text-align: center;
+    margin-top: 12px;
+    color: white;
+}
+
+.login-form label {
+    margin-top: 12px;
+    color: white;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-form button {
+    width: 100%;
+    margin-top: 24px;  
+    padding: 10px;
+    background-color: var(--tertiary-collor);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.login-form button:enabled {
+    opacity: 1;
+}
+
+.login-form button:disabled {
+    cursor: not-allowed;
+}
+
+.login-form p{
+    margin-top: 12px;
+    
+} 
+
+.login-form p .link {
+    margin-top: 12px; 
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+
+@media (max-width: 700px) {
+    .login-forms-img img{
+        display: none;
+    }
+}
+
+
+/* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ */
+
+/* logup page */
+
+.login-forms-geral{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    margin-top: 10%;
+    gap: 12px;
+}
+
+.login-forms-img img{
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover; 
+}
+
+.login-form{
+    width: 300px;
+    border-radius: 6px;
+    padding: 16px 12px 12px 12px;
+    background-color: var(--primary-collor);
+}
+
+.login-form h2{
+    text-align: center;
+    margin-top: 12px;
+    color: white;
+}
+
+.login-form label {
+    margin-top: 12px;
+    color: white;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-form button {
+    width: 100%;
+    margin-top: 24px;  
+    padding: 10px;
+    background-color: var(--tertiary-collor);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.login-form button:enabled {
+    opacity: 1;
+}
+
+.login-form button:disabled {
+    cursor: not-allowed;
+}
+
+.login-form p{
+    margin-top: 12px;
+    
+} 
+
+.login-form p .link {
+    margin-top: 12px; 
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+
+@media (max-width: 700px) {
+    .login-forms-img img{
+        display: none;
+    }
 }
