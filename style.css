@@ -68,6 +68,13 @@
     height: 100%;
     margin-top: 10%;
     gap: 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.login-forms-img{
+    display: flex;
+    align-items: center;
 }
 
 .login-forms-img img{
@@ -124,7 +131,7 @@
 
 .login-form p{
     margin-top: 12px;
-    
+    text-align: end;
 } 
 
 .login-form p .link {
@@ -135,7 +142,7 @@
 }
 
 
-@media (max-width: 700px) {
+@media (max-width: 650px) {
     .login-forms-img img{
         display: none;
     }
@@ -146,39 +153,46 @@
 
 /* logup page */
 
-.login-forms-geral{
+.logup-forms-geral{
     display: flex;
     justify-content: center;
     height: 100%;
     margin-top: 10%;
     gap: 12px;
+    margin-left: 12px;
+    margin-right: 12px;
 }
 
-.login-forms-img img{
+.logup-forms-img{
+    display: flex;
+    align-items: center;
+}
+
+.logup-forms-img img{
     width: 100%;
-    max-height: 400px;
-    object-fit: cover; 
+    max-height: 500px;
+    object-fit: cover;
 }
 
-.login-form{
+.logup-form{
     width: 300px;
     border-radius: 6px;
     padding: 16px 12px 12px 12px;
     background-color: var(--primary-collor);
 }
 
-.login-form h2{
+.logup-form h2{
     text-align: center;
     margin-top: 12px;
     color: white;
 }
 
-.login-form label {
+.logup-form label {
     margin-top: 12px;
     color: white;
 }
 
-.login-form input {
+.logup-form input {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
@@ -186,7 +200,7 @@
     border-radius: 5px;
 }
 
-.login-form button {
+.logup-form button {
     width: 100%;
     margin-top: 24px;  
     padding: 10px;
@@ -198,20 +212,20 @@
     opacity: 0.5;
 }
 
-.login-form button:enabled {
+.logup-form button:enabled {
     opacity: 1;
 }
 
-.login-form button:disabled {
+.logup-form button:disabled {
     cursor: not-allowed;
 }
 
-.login-form p{
+.logup-form p{
     margin-top: 12px;
-    
+    text-align: end;
 } 
 
-.login-form p .link {
+.logup-form p .link {
     margin-top: 12px; 
     text-align: center;
     text-decoration: none;
@@ -219,8 +233,14 @@
 }
 
 
-@media (max-width: 700px) {
-    .login-forms-img img{
+@media (max-width: 650px) {
+    .logup-forms-img img{
         display: none;
     }
 }
+
+/* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ */
+
+/* home page */
+
+
