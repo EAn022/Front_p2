@@ -1,0 +1,55 @@
+:root{
+    --primary-collor:rgb(255, 186, 106);
+    --secundary-collor:rgb(255, 230, 200);
+    --tertiary-collor: #263238;
+}
+
+*{
+    font-family:"Poppins", sans-serif;
+}
+
+.navbar{
+    background-color: var(--primary-collor)  !important;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover; 
+}
+
+.section-body{
+    padding: 8vw 8vw 12vw 8vw;
+}
+
+.QuemSomos{
+    background-color: var(--tertiary-collor);
+}
+
+.QuemSomos h2 {
+    margin-bottom: 24px;
+    color: white;
+}
+
+.QuemSomos p {
+    color: white;
+}
+
+.PerguntasFrequentes{
+    background-color: var(--primary-collor)
+}
+
+#PerguntasFrequentes{
+    margin-bottom: 24px;
+}
+
+
+.accordion-button.active {
+    background-color: var(--secundary-collor) !important;
+}

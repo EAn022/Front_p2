@@ -7,32 +7,41 @@
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    <!-- Font Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
     <title>BiblioLine</title>
 </head>
 <body>
     <!-- cabeçalho -->
      <section>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Navbar</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                  </li>
-                </ul>
+        <nav class="navbar navbar-expand-md">
+            <div class="container-fluid ">
+                <div class="logo">
+                    <img src="img/Vector.svg" alt="logo" height="20px">
+                    <a class="navbar-brand" href="index.html">BiblioLine</a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#QuemSomos">Quem somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#PerguntasFrequentes">Perguntas frequentes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html">Entrar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="logup.html">Cadastrar-se</a>
+                        </li>
+                    </ul>
               </div>
             </div>
           </nav>
@@ -48,24 +57,24 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                <img src="img/kimberly-farmer-lUaaKCUANVI-unsplash.jpg" class="d-block w-100" alt="...">
+                <img src="img/christin-hume-k2Kcwkandwg-unsplash.jpg" class="d-block " alt="livros ilustrativos">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
+                    <h5>Mergulhe em Novos Mundos com a Leitura</h5>
+                    <p>A leitura transforma o comum em extraordinário</p>
                 </div>
                 </div>
                 <div class="carousel-item">
-                <img src="img/kimberly-farmer-lUaaKCUANVI-unsplash.jpg" class="d-block w-100" alt="...">
+                <img src="img/jez-timms-8muUTAmcWU4-unsplash.jpg" class="d-block " alt="livros ilustrativos">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
+                    <h5>Cada Página, Uma Nova Descoberta</h5>
+                    <p>Descubra aventuras incríveis em cada capítulo</p>
                 </div>
                 </div>
                 <div class="carousel-item">
-                <img src="img/kimberly-farmer-lUaaKCUANVI-unsplash.jpg" class="d-block w-100" alt="...">
+                <img src="img/pavan-trikutam-avJ9uz9Qhcw-unsplash.jpg" class="d-block " alt="livros ilustrativos">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
+                    <h5>Desperte Sua Imagination: Leia Mais!</h5>
+                    <p>Com um livro, você pode viajar sem sair do lugar</p>
                 </div>
                 </div>
             </div>
@@ -77,58 +86,61 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
-            </div>
+        </div>
+            
     </section>
 
     <!-- quem somos -->
-     <section>
-        <h2>Quem somos</h2>
+     <section class="section-body QuemSomos">
+        <h2 id="QuemSomos">Quem somos</h2>
+        <p>A Biblioline é uma biblioteca virtual dedicada a proporcionar acesso ilimitado a livros, artigos e conteúdos educativos de diversos gêneros e áreas do conhecimento. Nosso objetivo é promover a leitura e o aprendizado contínuo, oferecendo uma plataforma intuitiva e acessível para todos. Com uma vasta coleção digital, a Biblioline é o espaço ideal para quem busca explorar novos mundos, aprimorar habilidades ou simplesmente mergulhar em uma boa história, a qualquer hora e de qualquer lugar.</p>
     </section>
 
     <!-- perguntas frequentes -->
-     <section>
-        <h2>Perguntas frequêntes</h2>
+     <section class="section-body PerguntasFrequentes">
+        <h2 id="PerguntasFrequentes">Perguntas frequêntes</h2>
 
-        
+
         <div class="accordion" id="accordionExample">
             <div class="accordion-item">
               <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  Accordion Item #1
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                  Como posso acessar os livros na Biblioline?
                 </button>
               </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    Para acessar os livros na Biblioline, basta se cadastrar na plataforma e escolher o plano que melhor se adapta às suas necessidades. Depois de se inscrever, você terá acesso instantâneo ao nosso catálogo de e-books, que pode ser lido online ou offline, dependendo da sua preferência.
                 </div>
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  Accordion Item #2
+                    Posso ler os livros offline?
                 </button>
               </h2>
               <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    Sim! A Biblioline oferece a opção de baixar livros em seu dispositivo para leitura offline. Após o download, você poderá acessar os livros mesmo sem conexão à internet, tornando a experiência de leitura mais flexível e prática.
                 </div>
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Accordion Item #3
+                    A Biblioline oferece livros em diferentes idiomas?
                 </button>
               </h2>
               <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    Sim! A Biblioline conta com uma ampla seleção de livros em diversos idiomas, incluindo português, inglês, espanhol, e outros. Você pode filtrar os resultados de pesquisa para encontrar livros no idioma de sua preferência e desfrutar de uma experiência de leitura diversificada.
                 </div>
               </div>
             </div>
           </div>
     </section>
+    
     <script src="script.js"></script>
 </body>
 </html>
