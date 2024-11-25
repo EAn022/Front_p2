@@ -17,6 +17,54 @@
     <title>BiblioLine</title>
 </head>
 <body>
-    perfil works!
+    <!-- cabeçalho -->
+    <section>
+        <nav class="navbar navbar-expand-md">
+            <div class="container-fluid ">
+                <div class="logo">
+                    <img src="img/Vector.svg" alt="logo" height="20px">
+                    <a class="navbar-brand" href="home.html">BiblioLine</a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="history.html">Histórico</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="user.html">Perfil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="reservations.html">Reservas</a>
+                        </li>
+                        <li class="nav-item">
+                            <div class="log-out-icon">
+                                <a class="nav-link" href="index.html">Logout <img src="img/door.svg" alt="logout imagem" width="26px"></a>
+                            </div>
+                        </li>
+                    </ul>
+              </div>
+            </div>
+          </nav>
+    </section>
+
+    <!--  -->
+    <section class="user-data">
+        <div class="user-data-card">
+            <div class="profile-img">
+                <img src="img/bearded.png" alt="user profile">
+            </div>
+            <h2>Nome: User</h2>
+            <h3>Email: user@gmail.com</h3>
+            <h4>Nº livros já reservados: 4</h4>
+            <h4>Nº livros à devolver: 2</h4>
+            <button class="editar-btn" onclick="reservarLivro(this)">Editar perfil</button>
+        </div>
+        <div class="user-img">
+            <img src="img/user.svg" alt="">
+        </div>
+    </section>
 </body>
 </html>
