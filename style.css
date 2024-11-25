@@ -593,3 +593,37 @@ li{
     opacity: 0.5;
 }
 
+
+
+/* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ */
+
+/* estatisticas page */
+
+.graf-content{
+    margin: 6vw 8vw 2vw 8vw;
+    padding: 12px 12px 12px 12px ;
+    justify-content: center;
+}
+
+.graf-content h2{
+    display: block;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.graficos{
+    display: flex;
+    justify-content: center;
+}
+
+
+#meuGrafico {
+    width: 400px !important;
+    height: 400px !important;
+}
+
+#graficoBarras {
+    width: 800px !important;
+    height: 400px !important;
+}
+
