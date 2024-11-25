@@ -17,8 +17,61 @@
     <title>BiblioLine</title>
 </head>
 <body>
-    
+    <!-- cabeçalho -->
+    <section>
+        <nav class="navbar navbar-expand-md">
+            <div class="container-fluid ">
+                <div class="logo">
+                    <img src="img/Vector.svg" alt="logo" height="20px">
+                    <a class="navbar-brand" href="home.html">BiblioLine</a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="user.html">Perfil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="reservations.html">Reservas</a>
+                        </li>
+                        <li class="nav-item">
+                            <div class="log-out-icon">
+                                <a class="nav-link" href="index.html">Logout <img src="img/door.svg" alt="logout imagem" width="26px"></a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            </nav>
+    </section>
 
-        <script src="script.js"></script>
+    <!--  -->
+    <section class="card-editar-perfil">
+        <div class="imagem-perfil">
+            <img class="perfil" src="img/bearded.png" alt="foto perfil">
+            <img class="icon" src="img/pen.svg" alt="icone editar imagem">
+        </div>
+        <div>
+            <form action="">
+
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" placeholder="Nome" required>
+
+                <label for="senhaCadastro">Senha:</label>
+                <input type="password" id="senhaCadastro" placeholder="Senha" required>
+
+                <label for="senhaCadastro">Confirmar senha:</label>
+                <input type="password" id="confirmarSenha" placeholder="Senha" required>
+
+                <button type="button" id="salvarAlteracao">Salvar alterações</button>
+            </form>
+        </div>
+       
+
+    </section>
+
+    <script src="script.js"></script>
 </body>
 </html>

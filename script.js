@@ -76,7 +76,10 @@ function editarPerfil(){
     window.location.href = " edit-profile.html";
 }
 
+/* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ */
 
+// editar perfil
 
+f
 
 

@@ -523,5 +523,73 @@ li{
 }
 
 
+/* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ */
 
+/* edit profile page */
+
+.card-editar-perfil{
+    margin: 6vw 8vw 2vw 8vw;
+    padding: 12px 12px 12px 12px ;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    background-color: var(--tertiary-color);
+}
+
+.imagem-perfil{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    align-items: end;
+}
+
+.imagem-perfil .perfil{
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%;
+    object-fit: cover; 
+}
+
+.imagem-perfil .icon{
+    width: 40px; 
+    height: 40px; 
+    fill: white;
+}
+
+.card-editar-perfil{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-editar-perfil form{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.card-editar-perfil label {
+    margin-top: 12px;
+    color: white;
+}
+
+.card-editar-perfil input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.card-editar-perfil button {
+    width: 100%;
+    margin-top: 24px;  
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0.5;
+}
 
