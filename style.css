@@ -386,7 +386,6 @@ li{
     margin-bottom: 24px;
 }
 
-
 .reservas ul{
     padding: 0;
 }
@@ -415,6 +414,31 @@ li{
 
 .item-reservado h4{
   font-size: 16px;
+}
+
+@media (max-width: 850px) {
+    .reservas .item-reservado{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .reservas .img-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .img-info img{
+        border-radius: 6px;
+        width: 200px;
+        object-fit: cover;
+        padding: auto;
+    }
+
+    .item-reservado h4{
+        margin-bottom: 36px;
+    }
 }
 
 
