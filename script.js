@@ -55,3 +55,9 @@
 
 
 /* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ */
+
+function reservarLivro(botao) {
+    alert("O livro foi reservado");
+    botao.disabled = true; 
+    botao.innerText = "Reservado"; 
+}
