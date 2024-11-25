@@ -15,7 +15,7 @@
     });
 
 
-
+/* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ */
 
 
 
@@ -40,7 +40,7 @@
         const senha = senhaInput.value;
 
         // Condições de validação: e-mail e senha devem ser "usuario"
-        if (email === "usuario" && senha === "usuario") {
+        if (email === "user@gmail.com" && senha === "user") {
             // alert("Login realizado com sucesso!");
             // Aqui você pode redirecionar o usuário para outra página, por exemplo:
             window.location.href = "home.html";
@@ -54,26 +54,4 @@
     senhaInput.addEventListener("input", verificarCampos);
 
 
-
-
-    
-// validação do cadastro
-    // Referências aos elementos do formulário
-    const nomeInputCadastrar = document.getElementById("nome");
-    const cadastrarButtonCadastrar = document.getElementById("cadastrar");
-
-
-    // Validação do formulário e verificação de e-mail e senha
-    cadastrarButtonCadastrar.addEventListener("click", function() {
-        const email = emailInputCadastro.value;
-        const senha = senhaInputCadastro.value;
-
-        // Condições de validação: e-mail e senha devem ser "usuario"
-        if (email === "usuario" && senha === "usuario") {
-            // alert("Login realizado com sucesso!");
-            // Aqui você pode redirecionar o usuário para outra página, por exemplo:
-            window.location.href = "home.html";
-        } else {
-            alert("E-mail ou senha inválidos!");
-        }
-    });
+/* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ */
