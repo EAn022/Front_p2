@@ -56,8 +56,27 @@
 
 /* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ */
 
-function reservarLivro(botao) {
-    alert("O livro foi reservado");
-    botao.disabled = true; 
-    botao.innerText = "Reservado"; 
+
+// Bloquear reserva
+
+
+    function reservarLivro(botao) {
+        alert("O livro foi reservado");
+        botao.disabled = true; 
+        botao.innerText = "Reservado"; 
+    }
+
+
+
+
+/* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ */
+
+
+function editarPerfil(){
+    window.location.href = " edit-profile.html";
 }
+
+
+
+
+

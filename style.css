@@ -506,6 +506,22 @@ li{
     object-fit: cover; 
 }
 
+.user-data-card .editar-btn{
+    width: 200px;
+    margin-top: 2vw;  
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+@media (max-width: 800px) {
+    .user-img{
+        display: none;
+    }
+}
+
 
 
 
